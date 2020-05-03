@@ -9,8 +9,7 @@
 
 #define OK true
 #define ERROR false
-#define BYTE 0x1U
-#define KILOBYTE (BYTE << 0xAU)
+#define KILOBYTE (0x1U << 0xAU)
 #define MEGABYTE (KILOBYTE << 0xAU)
 #define GIGABYTE (MEGABYTE << 0xAU)
 #define INVALID_TICKS (~0ULL)

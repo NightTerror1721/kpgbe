@@ -159,9 +159,11 @@
     <ClCompile Include="src\bios.cpp" />
     <ClCompile Include="src\common.cpp" />
     <ClCompile Include="src\cpu.cpp" />
+    <ClCompile Include="src\ext_opcode.cpp" />
     <ClCompile Include="src\interrupts.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\mmu.cpp" />
+    <ClCompile Include="src\opcodes.cpp" />
     <ClCompile Include="src\ram.cpp" />
     <ClCompile Include="src\registers.cpp" />
     <ClCompile Include="src\vm.cpp" />
@@ -172,6 +174,7 @@
     <ClInclude Include="include\cpu.h" />
     <ClInclude Include="include\interrupts.h" />
     <ClInclude Include="include\mmu.h" />
+    <ClInclude Include="include\opcodes.h" />
     <ClInclude Include="include\ram.h" />
     <ClInclude Include="include\range.h" />
     <ClInclude Include="include\registers.h" />

@@ -1,6 +1,7 @@
 #include "cpu.h"
 
 #include "vm.h"
+#include "opcodes.h"
 
 CPU::CPU() :
 	_stop{ false },
@@ -10,7 +11,10 @@ CPU::~CPU() {}
 
 void CPU::step(VirtualMachine& vm)
 {
-	//TODO:
+	if (_stop)
+		return;
+
+	Opcode::executeNext(vm);
 }
 
 void CPU::reset()
